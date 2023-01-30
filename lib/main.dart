@@ -127,6 +127,11 @@ class _ProjectsState extends State<Projects> {
     // TODO: implement initState
     super.initState();
     var test = Service().getProjects();
+    // test.then((value) {
+    //   setState(() {
+    //     projects = value;
+    //   });
+    // });
     // ProjectListView({this.projects});
 
     print('projects: $projects');
